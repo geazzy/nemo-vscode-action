@@ -6,7 +6,7 @@ Este repositório contém uma ação personalizada para o gerenciador de arquivo
 
 ### Descrição
 
-Ao clicar com o botão direito no fundo de uma pasta no Nemo ou ao selecionar um arquivo (ou pasta) com o botão direito, a ação **"Open in VS Code"** aparecerá e, ao selecioná-la, o VS Code será aberto com a pasta atual.
+No Nemo, ao selecionar com o botão direito um arquivo ou uma pasta, a opção 'Open in VS Code' será exibida. Ao selecioná-la, o VS Code abrirá o arquivo ou a pasta selecionada.
 
 ### Instalação
 
@@ -16,16 +16,19 @@ Ao clicar com o botão direito no fundo de uma pasta no Nemo ou ao selecionar um
    ```bash
    nemo -q
 
-
 ---
+# Nemo VS Code Action
+
 This repository contains a custom action for the Nemo file manager, allowing you to open the current folder in Visual Studio Code.
 
 ### Description
-When you right-click on the background of a folder in Nemo or right-click on a selected file (or folder), the "Open in VS Code" action will appear, and selecting it will open VS Code with the current folder.
+
+In Nemo, when you right-click on a file or folder, the "Open in VS Code" option will be displayed. When selected, VS Code will open the chosen file or folder.
 
 ### Installation
-1. Copy the vscode.nemo_action file to the directory ~/.local/share/nemo/actions/ or /usr/share/nemo/actions/.
-2. Ensure that the VS Code code command is available in your PATH.
+
+1. Copy the `vscode.nemo_action` file to the `~/.local/share/nemo/actions/` or `/usr/share/nemo/actions/` directory.
+2. Ensure that the VS Code `code` command is available in your PATH.
 3. Restart Nemo with:
-  ``` bash
-  nemo -q
+   ```bash
+   nemo -q
